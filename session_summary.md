@@ -2,7 +2,7 @@
 
 
 
-### Description for Some commands we learned it :
+### Description  Some commands we learned it :
 # Git and GitHub: Step-by-Step Guide
 
 ## 🔗 Part 1: Connecting a Local Repository to a Remote Repository on GitHub
