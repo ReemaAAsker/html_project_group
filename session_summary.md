@@ -1,7 +1,3 @@
-
-
-
-
 ### Description for Some commands we learned it :
 # Git and GitHub: Step-by-Step Guide
 
@@ -99,3 +95,4 @@ git push origin main
 | **Mesk**               | Resources Page | `resources/mesk` |
 | **Khalil**             | Science Page   | `science/khalil`   |
 | **Mohammed Abed Nabi** | Math Page      | `math/mohmmed`      |
+# resources/mesk >> done
