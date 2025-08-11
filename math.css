@@ -1,0 +1,89 @@
+body {
+  background-color: #f0f4f9;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 40px 20px;
+  text-decoration: none;
+}
+
+h1 {
+  color: #1b5ba4;
+}
+
+.equation_p {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 10px;
+}
+
+.equation {
+  background-color: #e9e9e9;
+  color: lightcoral;
+  border-radius: 7px;
+  width: 69px;
+  padding: 4px;
+  font-size: small;
+  height: 15px;
+}
+
+.ans {
+  height: 20px;
+  margin: auto;
+  margin-left: initial;
+}
+
+section {
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  width: 800px;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  border-left: 20px;
+  border-bottom: 3px solid #ffcc80;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  width: fit-content;
+}
+
+div {
+  width: fit-content;
+  display: flex;
+  width: 400px;
+}
+
+button {
+  display: flex;
+  background-color: blue;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
