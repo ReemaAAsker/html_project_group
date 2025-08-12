@@ -14,26 +14,12 @@ h1 {
   color: #1b5ba4;
 }
 
-.equation_p {
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 10px;
-}
-
-.equation {
+.a_Box {
   background-color: #e9e9e9;
-  color: lightcoral;
-  border-radius: 7px;
-  width: 69px;
-  padding: 4px;
-  font-size: small;
-  height: 15px;
-}
-
-.ans {
-  height: 20px;
-  margin: auto;
-  margin-left: initial;
+  color: #c95166;
+  padding: 3px 8px;
+  border-radius: 6px;
+  font-size: 14px;
 }
 
 section {
@@ -41,7 +27,7 @@ section {
   background-color: #fff;
   border-radius: 12px;
   margin-bottom: 20px;
-  width: 800px;
+  width: 1000px;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
@@ -57,10 +43,51 @@ h2 {
   width: fit-content;
 }
 
-div {
-  width: fit-content;
+.visual-example {
+  background-color: #fcfcfc;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.visual-example a {
+  margin: 0;
+  font-style: italic;
+  text-decoration: none;
+  color: #777;
+}
+.audio_tip {
+  background-color: #f7f9fc;
+  border-left: 5px solid #1b5ba4;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-top: 10px;
+}
+.audio_tip p {
+  margin: 0;
+  font-size: 1em;
+  color: #555;
+  font-style: italic;
+}
+.Challenge {
+  background-color: #fef2cd;
+  border-left: 5px solid #ffcc00;
+  border-radius: 8px;
+  padding: 15px 20px;
   display: flex;
-  width: 400px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 0px;
+  padding-right: 30px;
+  padding-bottom: 0px;
+  padding-left: 20px;
+  margin-top: 30px;
+  border-bottom-width: 5px;
+  margin-bottom: 30px;
 }
 
 button {
