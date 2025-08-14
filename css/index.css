@@ -60,7 +60,6 @@ h2 {
   border-radius: 12px;
 }
 .quick-links {
-    
 }
 a {
   color: #1b5ba4;
@@ -68,7 +67,7 @@ a {
   font-size: medium;
 }
 footer {
-    margin-top: 40px;
-    text-align: center;
-    color: #777;
+  margin-top: 40px;
+  text-align: center;
+  color: #777;
 }
